@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ConditionBarScript : MonoBehaviour {
-
+    public double countdownspeed;
     public double condition;
     public GameObject bar1, bar2, bar3, bar4, bar5, bar6, bar7, bar8;
     public GameObject houseG, houseY, houseR;
@@ -17,7 +17,7 @@ public class ConditionBarScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        condition = condition - 0.1;
+        condition = condition - countdownspeed;
 
         bar1.SetActive(false); bar2.SetActive(false); bar3.SetActive(false); bar4.SetActive(false); bar5.SetActive(false); bar6.SetActive(false); bar7.SetActive(false); bar8.SetActive(false);
 
