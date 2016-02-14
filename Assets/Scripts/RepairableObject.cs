@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class RepairableObject : MonoBehaviour {
     public double Damage;
@@ -9,9 +10,13 @@ public class RepairableObject : MonoBehaviour {
     public string ObjectName;
     private bool DisplayName;
     public double RoundedDamage;
+    public GameObject Popup;
+    public Text output;
+    
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
+        
         Damage = 0;
         canInteract = false;
 	
@@ -28,7 +33,11 @@ public class RepairableObject : MonoBehaviour {
         if (canInteract == true)
         {
             DisplayName = true;
-                
+            ShowPopup();
+        }
+        else
+        {
+            Popup.SetActive(false);
         }
      }
     void OnMouseExit()
@@ -41,6 +50,7 @@ public class RepairableObject : MonoBehaviour {
         if (DisplayName == true)
         {
             GUI.Label(new Rect(0, 0, 100, 100), (ObjectName + "   damage:" + System.Convert.ToString(RoundedDamage)));
+            
         }
     }
 
@@ -54,6 +64,14 @@ public class RepairableObject : MonoBehaviour {
     {
         Damage = 0;
     }
+
+    void ShowPopup()
+    {
+        Popup.SetActive(true);
+        output.text = (ObjectName);
+
+    }
+
     void OnTriggerEnter(Collider player)
     {
         canInteract = true;
