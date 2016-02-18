@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 05676dc7cdbd43146a8647e6b7976e19
+timeCreated: 1455823876
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Book 001
+    100002: Book 002
+    100004: Book 003
+    100006: Book 004
+    100008: Bottle
+    100010: Bottle001
+    100012: Bowl
+    100014: Bowl Filling
+    100016: Can
+    100018: Coffee Cup
+    100020: Coffee Table Clutter Mid_Range
+    100022: Coffee Table Cover
+    100024: Coffee Table Dirty
+    100026: Coffee Table Props Dirty
+    100028: Control
+    100030: Crushed Can
+    100032: Laptop
+    100034: 'Low Poly Coffee Table '
+    100036: //RootNode
+    100038: Low Poly Coffee Table Dirty
+    100040: Low Poly Coffee Table NoProps
+    100042: Magazine Open
+    100044: Magazine001
+    100046: Magazine002
+    100048: Magazine003
+    100050: Midrange Coffee Table
+    100052: Pepperoni001
+    100054: Pepperoni002
+    100056: Pepperoni003
+    100058: Pepperoni004
+    100060: Pepperoni006
+    100062: Pepperoni007
+    100064: Pepperoni008
+    100066: Pizza
+    100068: Pizza Box Open
+    100070: Pizza Box001
+    100072: Pizza Box002
+    400000: Book 001
+    400002: Book 002
+    400004: Book 003
+    400006: Book 004
+    400008: Bottle
+    400010: Bottle001
+    400012: Bowl
+    400014: Bowl Filling
+    400016: Can
+    400018: Coffee Cup
+    400020: Coffee Table Clutter Mid_Range
+    400022: Coffee Table Cover
+    400024: Coffee Table Dirty
+    400026: Coffee Table Props Dirty
+    400028: Control
+    400030: Crushed Can
+    400032: Laptop
+    400034: 'Low Poly Coffee Table '
+    400036: //RootNode
+    400038: Low Poly Coffee Table Dirty
+    400040: Low Poly Coffee Table NoProps
+    400042: Magazine Open
+    400044: Magazine001
+    400046: Magazine002
+    400048: Magazine003
+    400050: Midrange Coffee Table
+    400052: Pepperoni001
+    400054: Pepperoni002
+    400056: Pepperoni003
+    400058: Pepperoni004
+    400060: Pepperoni006
+    400062: Pepperoni007
+    400064: Pepperoni008
+    400066: Pizza
+    400068: Pizza Box Open
+    400070: Pizza Box001
+    400072: Pizza Box002
+    2300000: Book 001
+    2300002: Book 002
+    2300004: Book 003
+    2300006: Book 004
+    2300008: Bottle
+    2300010: Bottle001
+    2300012: Bowl
+    2300014: Bowl Filling
+    2300016: Can
+    2300018: Coffee Cup
+    2300020: Coffee Table Cover
+    2300022: Control
+    2300024: Crushed Can
+    2300026: Laptop
+    2300028: 'Low Poly Coffee Table '
+    2300030: Low Poly Coffee Table Dirty
+    2300032: Low Poly Coffee Table NoProps
+    2300034: Magazine Open
+    2300036: Magazine001
+    2300038: Magazine002
+    2300040: Magazine003
+    2300042: Pepperoni001
+    2300044: Pepperoni002
+    2300046: Pepperoni003
+    2300048: Pepperoni004
+    2300050: Pepperoni006
+    2300052: Pepperoni007
+    2300054: Pepperoni008
+    2300056: Pizza
+    2300058: Pizza Box Open
+    2300060: Pizza Box001
+    2300062: Pizza Box002
+    3300000: Book 001
+    3300002: Book 002
+    3300004: Book 003
+    3300006: Book 004
+    3300008: Bottle
+    3300010: Bottle001
+    3300012: Bowl
+    3300014: Bowl Filling
+    3300016: Can
+    3300018: Coffee Cup
+    3300020: Coffee Table Cover
+    3300022: Control
+    3300024: Crushed Can
+    3300026: Laptop
+    3300028: 'Low Poly Coffee Table '
+    3300030: Low Poly Coffee Table Dirty
+    3300032: Low Poly Coffee Table NoProps
+    3300034: Magazine Open
+    3300036: Magazine001
+    3300038: Magazine002
+    3300040: Magazine003
+    3300042: Pepperoni001
+    3300044: Pepperoni002
+    3300046: Pepperoni003
+    3300048: Pepperoni004
+    3300050: Pepperoni006
+    3300052: Pepperoni007
+    3300054: Pepperoni008
+    3300056: Pizza
+    3300058: Pizza Box Open
+    3300060: Pizza Box001
+    3300062: Pizza Box002
+    4300000: Low Poly Coffee Table NoProps
+    4300002: Book 004
+    4300004: Book 001
+    4300006: Book 002
+    4300008: Book 003
+    4300010: Control
+    4300012: Bowl
+    4300014: Bowl Filling
+    4300016: Coffee Cup
+    4300018: Laptop
+    4300020: Coffee Table Cover
+    4300022: 'Low Poly Coffee Table '
+    4300024: Low Poly Coffee Table Dirty
+    4300026: Pizza Box Open
+    4300028: Pizza
+    4300030: Pepperoni007
+    4300032: Pepperoni004
+    4300034: Pepperoni003
+    4300036: Pepperoni002
+    4300038: Pepperoni008
+    4300040: Pepperoni006
+    4300042: Pepperoni001
+    4300044: Can
+    4300046: Crushed Can
+    4300048: Pizza Box001
+    4300050: Pizza Box002
+    4300052: Magazine Open
+    4300054: Magazine001
+    4300056: Magazine002
+    4300058: Magazine003
+    4300060: Bottle001
+    4300062: Bottle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

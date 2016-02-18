@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class RepairableObject : MonoBehaviour {
+    public GameObject Player;
     public double Damage;
     public double BreakdownSpeed;
     public double Resistance;
@@ -12,6 +13,7 @@ public class RepairableObject : MonoBehaviour {
     public double RoundedDamage;
     public GameObject Popup;
     public Text output;
+    public GameObject lowDamage, mediumDamage, highDamage;
     
 
     // Use this for initialization
@@ -19,13 +21,25 @@ public class RepairableObject : MonoBehaviour {
         
         Damage = 0;
         canInteract = false;
-	
-	}
+        Popup.SetActive(false);
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        DamageOverTime();
+        if (Damage < 100)
+        {
+            DamageOverTime();
+        }
+
+        //Close popup on right click
+        if (Input.GetMouseButtonDown(1))
+        {
+            Popup.SetActive(false);
+        }
+        
 	
+        
 	}
 
     void OnMouseDown()
@@ -35,9 +49,9 @@ public class RepairableObject : MonoBehaviour {
             DisplayName = true;
             ShowPopup();
         }
-        else
+        else if (canInteract == false)
         {
-            Popup.SetActive(false);
+            
         }
      }
     void OnMouseExit()
@@ -59,10 +73,32 @@ public class RepairableObject : MonoBehaviour {
         Damage = Damage + BreakdownSpeed/(Resistance * 100);
         RoundedDamage = System.Math.Round(Damage, 2);
 
+        if (Damage <= 25)
+        {
+            lowDamage.SetActive(true);
+            mediumDamage.SetActive(false);
+            highDamage.SetActive(false);
+        }
+        else if (Damage > 25 & Damage < 75)
+        {
+            lowDamage.SetActive(false);
+            mediumDamage.SetActive(true);
+            highDamage.SetActive(false);
+        }
+        else
+        {
+            lowDamage.SetActive(false);
+            mediumDamage.SetActive(false);
+            highDamage.SetActive(true);
+        }
+
     }
-    void Repair()
+    public void Repair()
     {
-        Damage = 0;
+        if (canInteract == true)
+         {
+            this.Damage = 0;
+        }
     }
 
     void ShowPopup()
@@ -72,14 +108,24 @@ public class RepairableObject : MonoBehaviour {
 
     }
 
-    void OnTriggerEnter(Collider player)
+    void OnTriggerStay (Collider other)
     {
-        canInteract = true;
+
+        if (other.gameObject.tag == "Player")
+        {
+            canInteract = true;
+        }
+
+        
     }
-    void OnTriggerExit(Collider player)
+    void OnTriggerExit(Collider other)
     {
-        canInteract = false;
-        DisplayName = false;
+        if (other.gameObject.tag == "Player")
+        {
+            canInteract = false;
+            DisplayName = false;
+        }
+
     }
 
 }
