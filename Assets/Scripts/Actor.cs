@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Actor : MonoBehaviour {
-	
+
+    public GameObject PopUp;
+
 	enum State
 	{
 		IDLE,
@@ -69,37 +71,40 @@ public class Actor : MonoBehaviour {
 	
 	void MoveToward()
 	{
-		if (DebugMode)
-		{
-			for (int i=0; i<path.Count-1; ++i)
-			{
-				Debug.DrawLine((Vector3)path[i], (Vector3)path[i+1], Color.white, 0.01f);
-			}
-		}
-		
-		Vector3 newPos = transform.position;
+        if (PopUp.activeInHierarchy == false)
+        {
+            if (DebugMode)
+            {
+                for (int i = 0; i < path.Count - 1; ++i)
+                {
+                    Debug.DrawLine((Vector3)path[i], (Vector3)path[i + 1], Color.white, 0.01f);
+                }
+            }
 
-		float Xdistance = newPos.x - currNode.x;
-		if (Xdistance < 0) Xdistance -= Xdistance*2;
-		float Ydistance = newPos.z - currNode.z;
-		if (Ydistance < 0) Ydistance -= Ydistance*2;
-	
-		if ((Xdistance < 0.1 && Ydistance < 0.1) && m_target == currNode) //Reached target
-		{
-			ChangeState(State.IDLE);
-		}
-		else if (Xdistance < 0.1 && Ydistance < 0.1)
-		{
-			nodeIndex++;
-			onNode = true;
-		}
-		
-		/***Move toward waypoint***/
-		Vector3 motion = currNode - newPos;
-		motion.Normalize();
-		newPos += motion * m_speed;
-		
-		transform.position = newPos;
+            Vector3 newPos = transform.position;
+
+            float Xdistance = newPos.x - currNode.x;
+            if (Xdistance < 0) Xdistance -= Xdistance * 2;
+            float Ydistance = newPos.z - currNode.z;
+            if (Ydistance < 0) Ydistance -= Ydistance * 2;
+
+            if ((Xdistance < 0.1 && Ydistance < 0.1) && m_target == currNode) //Reached target
+            {
+                ChangeState(State.IDLE);
+            }
+            else if (Xdistance < 0.1 && Ydistance < 0.1)
+            {
+                nodeIndex++;
+                onNode = true;
+            }
+
+            /***Move toward waypoint***/
+            Vector3 motion = currNode - newPos;
+            motion.Normalize();
+            newPos += motion * m_speed;
+
+            transform.position = newPos;
+        }
 	}
 	
 	private void SetTarget()
