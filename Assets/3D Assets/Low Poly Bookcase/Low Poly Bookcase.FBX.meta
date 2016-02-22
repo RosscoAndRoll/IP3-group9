@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 29bde017d276fba418c053c860c1da66
+timeCreated: 1455831125
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Book 001
+    100002: Book 002
+    100004: Book 003
+    100006: Book 004
+    100008: Book 005
+    100010: Book 007
+    100012: Book 008
+    100014: Book 009
+    100016: Book 010
+    100018: Book 011
+    100020: Book 012
+    100022: Book 013
+    100024: Book 014
+    100026: Book 015
+    100028: Book 016
+    100030: Book 017
+    100032: Book 018
+    100034: Book 019
+    100036: Book 020
+    100038: Book 021
+    100040: Book 022
+    100042: Book 023
+    100044: Book 024
+    100046: Book 025
+    100048: Book 026
+    100050: Bookcase
+    100052: BookCase Empty
+    100054: Bookcase Empty
+    100056: Bookcase Full
+    100058: Bookcase Props
+    100060: Bookcase Shelf 005
+    100062: Bookcase Shelf 006
+    100064: Bookcase Shelf 007
+    100066: Bookcase Shelf 008
+    100068: Bookcase Shelf 1
+    100070: Bookcase Shelf 2
+    100072: Bookcase Shelf 3
+    100074: Bookcase Shelf 4
+    100076: //RootNode
+    100078: Picture Frame
+    100080: Picture Frame002
+    400000: Book 001
+    400002: Book 002
+    400004: Book 003
+    400006: Book 004
+    400008: Book 005
+    400010: Book 007
+    400012: Book 008
+    400014: Book 009
+    400016: Book 010
+    400018: Book 011
+    400020: Book 012
+    400022: Book 013
+    400024: Book 014
+    400026: Book 015
+    400028: Book 016
+    400030: Book 017
+    400032: Book 018
+    400034: Book 019
+    400036: Book 020
+    400038: Book 021
+    400040: Book 022
+    400042: Book 023
+    400044: Book 024
+    400046: Book 025
+    400048: Book 026
+    400050: Bookcase
+    400052: BookCase Empty
+    400054: Bookcase Empty
+    400056: Bookcase Full
+    400058: Bookcase Props
+    400060: Bookcase Shelf 005
+    400062: Bookcase Shelf 006
+    400064: Bookcase Shelf 007
+    400066: Bookcase Shelf 008
+    400068: Bookcase Shelf 1
+    400070: Bookcase Shelf 2
+    400072: Bookcase Shelf 3
+    400074: Bookcase Shelf 4
+    400076: //RootNode
+    400078: Picture Frame
+    400080: Picture Frame002
+    2300000: Book 001
+    2300002: Book 002
+    2300004: Book 003
+    2300006: Book 004
+    2300008: Book 005
+    2300010: Book 007
+    2300012: Book 008
+    2300014: Book 009
+    2300016: Book 010
+    2300018: Book 011
+    2300020: Book 012
+    2300022: Book 013
+    2300024: Book 014
+    2300026: Book 015
+    2300028: Book 016
+    2300030: Book 017
+    2300032: Book 018
+    2300034: Book 019
+    2300036: Book 020
+    2300038: Book 021
+    2300040: Book 022
+    2300042: Book 023
+    2300044: Book 024
+    2300046: Book 025
+    2300048: Book 026
+    2300050: Bookcase
+    2300052: Bookcase Empty
+    2300054: Bookcase Shelf 005
+    2300056: Bookcase Shelf 006
+    2300058: Bookcase Shelf 007
+    2300060: Bookcase Shelf 008
+    2300062: Bookcase Shelf 1
+    2300064: Bookcase Shelf 2
+    2300066: Bookcase Shelf 3
+    2300068: Bookcase Shelf 4
+    2300070: Picture Frame
+    2300072: Picture Frame002
+    3300000: Book 001
+    3300002: Book 002
+    3300004: Book 003
+    3300006: Book 004
+    3300008: Book 005
+    3300010: Book 007
+    3300012: Book 008
+    3300014: Book 009
+    3300016: Book 010
+    3300018: Book 011
+    3300020: Book 012
+    3300022: Book 013
+    3300024: Book 014
+    3300026: Book 015
+    3300028: Book 016
+    3300030: Book 017
+    3300032: Book 018
+    3300034: Book 019
+    3300036: Book 020
+    3300038: Book 021
+    3300040: Book 022
+    3300042: Book 023
+    3300044: Book 024
+    3300046: Book 025
+    3300048: Book 026
+    3300050: Bookcase
+    3300052: Bookcase Empty
+    3300054: Bookcase Shelf 005
+    3300056: Bookcase Shelf 006
+    3300058: Bookcase Shelf 007
+    3300060: Bookcase Shelf 008
+    3300062: Bookcase Shelf 1
+    3300064: Bookcase Shelf 2
+    3300066: Bookcase Shelf 3
+    3300068: Bookcase Shelf 4
+    3300070: Picture Frame
+    3300072: Picture Frame002
+    4300000: Bookcase Shelf 005
+    4300002: Bookcase Shelf 006
+    4300004: Bookcase Shelf 007
+    4300006: Bookcase Shelf 008
+    4300008: Bookcase Empty
+    4300010: Book 025
+    4300012: Book 026
+    4300014: Book 023
+    4300016: Book 024
+    4300018: Picture Frame002
+    4300020: Book 022
+    4300022: Book 020
+    4300024: Book 021
+    4300026: Book 019
+    4300028: Book 018
+    4300030: Book 017
+    4300032: Book 014
+    4300034: Book 013
+    4300036: Book 015
+    4300038: Book 016
+    4300040: Book 011
+    4300042: Book 010
+    4300044: Book 009
+    4300046: Book 012
+    4300048: Book 007
+    4300050: Book 005
+    4300052: Book 008
+    4300054: Book 002
+    4300056: Book 001
+    4300058: Book 003
+    4300060: Book 004
+    4300062: Picture Frame
+    4300064: Bookcase Shelf 4
+    4300066: Bookcase Shelf 3
+    4300068: Bookcase Shelf 2
+    4300070: Bookcase Shelf 1
+    4300072: Bookcase
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

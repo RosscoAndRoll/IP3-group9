@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: 922d1e53f2673354e87598330378477f
+timeCreated: 1455832919
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Low Poly Couch Body
+    100004: Low Poly Couch Bottom Seat
+    100006: Low Poly Couch Bottom Seat001
+    100008: Low Poly Couch Upper Seat
+    100010: Low Poly Couch Upper Seat001
+    100012: Low Poly Cushion 002
+    100014: Low Poly Cushion 1
+    400000: //RootNode
+    400002: Low Poly Couch Body
+    400004: Low Poly Couch Bottom Seat
+    400006: Low Poly Couch Bottom Seat001
+    400008: Low Poly Couch Upper Seat
+    400010: Low Poly Couch Upper Seat001
+    400012: Low Poly Cushion 002
+    400014: Low Poly Cushion 1
+    2300000: Low Poly Couch Body
+    2300002: Low Poly Couch Bottom Seat
+    2300004: Low Poly Couch Bottom Seat001
+    2300006: Low Poly Couch Upper Seat
+    2300008: Low Poly Couch Upper Seat001
+    2300010: Low Poly Cushion 002
+    2300012: Low Poly Cushion 1
+    3300000: Low Poly Couch Body
+    3300002: Low Poly Couch Bottom Seat
+    3300004: Low Poly Couch Bottom Seat001
+    3300006: Low Poly Couch Upper Seat
+    3300008: Low Poly Couch Upper Seat001
+    3300010: Low Poly Cushion 002
+    3300012: Low Poly Cushion 1
+    4300000: Low Poly Couch Body
+    4300002: Low Poly Cushion 1
+    4300004: Low Poly Couch Bottom Seat
+    4300006: Low Poly Couch Upper Seat
+    4300008: Low Poly Cushion 002
+    4300010: Low Poly Couch Bottom Seat001
+    4300012: Low Poly Couch Upper Seat001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
