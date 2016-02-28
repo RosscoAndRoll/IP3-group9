@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 1df8c11c080a16f489e313876a612340
+timeCreated: 1456685303
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Be_Head01
+    100002: Be_Hip01
+    100004: Be_L_Handend01
+    100006: Be_L_Toe01
+    100008: Be_R_Handend01
+    100010: Be_R_Toe01
+    100012: Be_ShldEnd
+    100014: Be_ShldEnd(mirrored)
+    100016: Bn_Chest01
+    100018: Bn_HeadB01
+    100020: Bn_Hip01
+    100022: Bn_L_Ankle01
+    100024: Bn_L_Arm01
+    100026: Bn_L_Ball01
+    100028: Bn_L_Elbow
+    100030: Bn_L_Shin01
+    100032: Bn_L_Shld01
+    100034: Bn_L_Thigh01
+    100036: Bn_L_Wrist01
+    100038: BN_Neck01
+    100040: Bn_R_Arm01
+    100042: Bn_R_Ball01
+    100044: Bn_R_Elbow
+    100046: Bn_R_Shin01
+    100048: Bn_R_Shin01 1
+    100050: Bn_R_Shld01
+    100052: Bn_R_Thigh01
+    100054: Bn_R_Wrist01
+    100056: BN_SpB01
+    100058: BN_SpC01
+    100060: BRoot_SPA01
+    100062: CC_BackB01
+    100064: CC_BackC01
+    100066: CC_Chest
+    100068: CC_COG01
+    100070: CC_Global
+    100072: CC_Head01
+    100074: CC_Hip01
+    100076: CC_L_Arm01
+    100078: CC_L_Ball01
+    100080: CC_L_Foot01
+    100082: CC_L_Heel01
+    100084: CC_L_Shld01
+    100086: CC_L_Toe01
+    100088: CC_Neck01
+    100090: CC_R_Arm01
+    100092: CC_R_Ball01
+    100094: CC_R_Foot01
+    100096: CC_R_Heel01
+    100098: CC_R_Shld01
+    100100: CC_R_Toe01
+    100102: HIIK_L_Ankle
+    100104: HIIK_L_Arm01
+    100106: HIIK_R_Ankle
+    100108: HIIK_R_Arm01
+    100110: //RootNode
+    100112: PlaceholderChar
+    100114: Point001
+    100116: Point002
+    100118: Ptctrl_Chest01
+    100120: Ptctrl_Head01
+    100122: Ptctrl_Hip01
+    100124: ptctrl_L_Ankle01
+    100126: ptctrl_L_arm01
+    100128: ptctrl_L_Ball01
+    100130: ptctrl_L_Heel
+    100132: ptctrl_L_Toe01
+    100134: Ptctrl_Neck01
+    100136: ptctrl_R_Ankle01
+    100138: ptctrl_R_arm01
+    100140: ptctrl_R_Ball01
+    100142: ptctrl_R_Heel01
+    100144: ptctrl_R_Toe01
+    100146: Ptctrl_SpB01
+    100148: Ptctrl_SpC01
+    400000: Be_Head01
+    400002: Be_Hip01
+    400004: Be_L_Handend01
+    400006: Be_L_Toe01
+    400008: Be_R_Handend01
+    400010: Be_R_Toe01
+    400012: Be_ShldEnd
+    400014: Be_ShldEnd(mirrored)
+    400016: Bn_Chest01
+    400018: Bn_HeadB01
+    400020: Bn_Hip01
+    400022: Bn_L_Ankle01
+    400024: Bn_L_Arm01
+    400026: Bn_L_Ball01
+    400028: Bn_L_Elbow
+    400030: Bn_L_Shin01
+    400032: Bn_L_Shld01
+    400034: Bn_L_Thigh01
+    400036: Bn_L_Wrist01
+    400038: BN_Neck01
+    400040: Bn_R_Arm01
+    400042: Bn_R_Ball01
+    400044: Bn_R_Elbow
+    400046: Bn_R_Shin01
+    400048: Bn_R_Shin01 1
+    400050: Bn_R_Shld01
+    400052: Bn_R_Thigh01
+    400054: Bn_R_Wrist01
+    400056: BN_SpB01
+    400058: BN_SpC01
+    400060: BRoot_SPA01
+    400062: CC_BackB01
+    400064: CC_BackC01
+    400066: CC_Chest
+    400068: CC_COG01
+    400070: CC_Global
+    400072: CC_Head01
+    400074: CC_Hip01
+    400076: CC_L_Arm01
+    400078: CC_L_Ball01
+    400080: CC_L_Foot01
+    400082: CC_L_Heel01
+    400084: CC_L_Shld01
+    400086: CC_L_Toe01
+    400088: CC_Neck01
+    400090: CC_R_Arm01
+    400092: CC_R_Ball01
+    400094: CC_R_Foot01
+    400096: CC_R_Heel01
+    400098: CC_R_Shld01
+    400100: CC_R_Toe01
+    400102: HIIK_L_Ankle
+    400104: HIIK_L_Arm01
+    400106: HIIK_R_Ankle
+    400108: HIIK_R_Arm01
+    400110: //RootNode
+    400112: PlaceholderChar
+    400114: Point001
+    400116: Point002
+    400118: Ptctrl_Chest01
+    400120: Ptctrl_Head01
+    400122: Ptctrl_Hip01
+    400124: ptctrl_L_Ankle01
+    400126: ptctrl_L_arm01
+    400128: ptctrl_L_Ball01
+    400130: ptctrl_L_Heel
+    400132: ptctrl_L_Toe01
+    400134: Ptctrl_Neck01
+    400136: ptctrl_R_Ankle01
+    400138: ptctrl_R_arm01
+    400140: ptctrl_R_Ball01
+    400142: ptctrl_R_Heel01
+    400144: ptctrl_R_Toe01
+    400146: Ptctrl_SpB01
+    400148: Ptctrl_SpC01
+    4300000: PlaceholderChar
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: PlaceholderChar
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CC_Global
+        weight: 1
+      - path: CC_Global/CC_COG01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Be_Hip01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_L_Thigh01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_L_Thigh01/Bn_L_Shin01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_L_Thigh01/Bn_L_Shin01/Bn_L_Ankle01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_L_Thigh01/Bn_L_Shin01/Bn_L_Ankle01/Bn_L_Ball01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_L_Thigh01/Bn_L_Shin01/Bn_L_Ankle01/Bn_L_Ball01/Be_L_Toe01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_R_Thigh01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_R_Thigh01/Bn_R_Shin01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_R_Thigh01/Bn_R_Shin01/Bn_R_Shin01
+          1
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_R_Thigh01/Bn_R_Shin01/Bn_R_Shin01
+          1/Bn_R_Ball01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/Bn_Hip01/Bn_R_Thigh01/Bn_R_Shin01/Bn_R_Shin01
+          1/Bn_R_Ball01/Be_R_Toe01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_L_Shld01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_L_Shld01/Be_ShldEnd
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_L_Shld01/Bn_L_Arm01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_L_Shld01/Bn_L_Arm01/Bn_L_Elbow
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_L_Shld01/Bn_L_Arm01/Bn_L_Elbow/Bn_L_Wrist01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_L_Shld01/Bn_L_Arm01/Bn_L_Elbow/Bn_L_Wrist01/Be_L_Handend01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/BN_Neck01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/BN_Neck01/Bn_HeadB01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/BN_Neck01/Bn_HeadB01/Be_Head01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_R_Shld01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_R_Shld01/Be_ShldEnd(mirrored)
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_R_Shld01/Bn_R_Arm01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_R_Shld01/Bn_R_Arm01/Bn_R_Elbow
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_R_Shld01/Bn_R_Arm01/Bn_R_Elbow/Bn_R_Wrist01
+        weight: 1
+      - path: CC_Global/CC_COG01/BRoot_SPA01/BN_SpB01/BN_SpC01/Bn_Chest01/Bn_R_Shld01/Bn_R_Arm01/Bn_R_Elbow/Bn_R_Wrist01/Be_R_Handend01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_L_Shld01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_L_Shld01/Point001
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_Neck01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_Neck01/CC_Head01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_Neck01/CC_Head01/Ptctrl_Head01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_Neck01/Ptctrl_Neck01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_R_Shld01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/CC_R_Shld01/Point002
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/CC_Chest/Ptctrl_Chest01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/CC_BackC01/Ptctrl_SpC01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_BackB01/Ptctrl_SpB01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_Hip01
+        weight: 1
+      - path: CC_Global/CC_COG01/CC_Hip01/Ptctrl_Hip01
+        weight: 1
+      - path: CC_Global/CC_L_Arm01
+        weight: 1
+      - path: CC_Global/CC_L_Arm01/ptctrl_L_arm01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01/CC_L_Heel01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01/CC_L_Heel01/CC_L_Toe01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01/CC_L_Heel01/CC_L_Toe01/CC_L_Ball01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01/CC_L_Heel01/CC_L_Toe01/CC_L_Ball01/ptctrl_L_Ball01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01/CC_L_Heel01/CC_L_Toe01/CC_L_Ball01/ptctrl_L_Ball01/ptctrl_L_Ankle01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01/CC_L_Heel01/CC_L_Toe01/ptctrl_L_Toe01
+        weight: 1
+      - path: CC_Global/CC_L_Foot01/CC_L_Heel01/ptctrl_L_Heel
+        weight: 1
+      - path: CC_Global/CC_R_Arm01
+        weight: 1
+      - path: CC_Global/CC_R_Arm01/ptctrl_R_arm01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01/CC_R_Heel01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01/CC_R_Heel01/CC_R_Toe01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01/CC_R_Heel01/CC_R_Toe01/CC_R_Ball01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01/CC_R_Heel01/CC_R_Toe01/CC_R_Ball01/ptctrl_R_Ball01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01/CC_R_Heel01/CC_R_Toe01/CC_R_Ball01/ptctrl_R_Ball01/ptctrl_R_Ankle01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01/CC_R_Heel01/CC_R_Toe01/ptctrl_R_Toe01
+        weight: 1
+      - path: CC_Global/CC_R_Foot01/CC_R_Heel01/ptctrl_R_Heel01
+        weight: 1
+      - path: HIIK_L_Ankle
+        weight: 1
+      - path: HIIK_L_Arm01
+        weight: 1
+      - path: HIIK_R_Ankle
+        weight: 1
+      - path: HIIK_R_Arm01
+        weight: 1
+      - path: PlaceholderChar
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

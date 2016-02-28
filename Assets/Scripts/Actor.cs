@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class Actor : MonoBehaviour {
 
     public GameObject PopUp;
+    public Animator Anim;
 
 	enum State
 	{
@@ -26,16 +27,30 @@ public class Actor : MonoBehaviour {
 	float OldTime = 0;
 	float checkTime = 0;
 	float elapsedTime = 0;
+    public Vector3 newPos;
+    private Vector3 directiontolook;
 	
 	void Awake()
 	{
 		GameObject cam = GameObject.FindGameObjectWithTag("MainCamera");
 		control = (NodeControl)cam.GetComponent(typeof(NodeControl));
 	}
+
+    void Start()
+    {
+        Anim = this.transform.GetComponent<Animator>();
+        Anim.enabled = true;
+    }
 	
-	void Update () 
-	{
-		m_speed = Time.deltaTime * m_speed_multi;
+	void Update ()
+    {
+        transform.rotation = Quaternion.Euler(360, transform.rotation.y, transform.rotation.z);
+        directiontolook = m_target;
+        transform.rotation = Quaternion.LookRotation(directiontolook);
+
+        
+
+        m_speed = Time.deltaTime * m_speed_multi;
 		elapsedTime += Time.deltaTime;
 		
 		if (elapsedTime > OldTime)
@@ -43,7 +58,7 @@ public class Actor : MonoBehaviour {
 			switch (state)
 			{
 			case State.IDLE:
-				break;
+                    break;
 				
 			case State.NOT_IDLE:
 				OldTime = elapsedTime + 0.01f;
@@ -58,7 +73,8 @@ public class Actor : MonoBehaviour {
 				{
 					if (onNode)
 					{
-						onNode = false;
+                            
+                            onNode = false;
 						if (nodeIndex < path.Count)
 							currNode = path[nodeIndex];
 					} else
@@ -67,10 +83,13 @@ public class Actor : MonoBehaviour {
 				break;
 			}
 		}
-	}
+        
+    }
 	
 	void MoveToward()
 	{
+        
+        directiontolook[0] = 360.0f;
         if (PopUp.activeInHierarchy == false)
         {
             if (DebugMode)
@@ -81,7 +100,9 @@ public class Actor : MonoBehaviour {
                 }
             }
 
-            Vector3 newPos = transform.position;
+            newPos = transform.position;
+            
+            
 
             float Xdistance = newPos.x - currNode.x;
             if (Xdistance < 0) Xdistance -= Xdistance * 2;
@@ -90,7 +111,9 @@ public class Actor : MonoBehaviour {
 
             if ((Xdistance < 0.1 && Ydistance < 0.1) && m_target == currNode) //Reached target
             {
+                
                 ChangeState(State.IDLE);
+                
             }
             else if (Xdistance < 0.1 && Ydistance < 0.1)
             {
@@ -102,6 +125,7 @@ public class Actor : MonoBehaviour {
             Vector3 motion = currNode - newPos;
             motion.Normalize();
             newPos += motion * m_speed;
+            
 
             transform.position = newPos;
         }
